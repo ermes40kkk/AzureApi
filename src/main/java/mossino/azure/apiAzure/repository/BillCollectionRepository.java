@@ -26,21 +26,21 @@ public class BillCollectionRepository {
     }
     @PostConstruct
     private void init() {
-        billList.add(new Bill(111, "title1", "des1", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1000));
-        billList.add(new Bill(2, "title2", "des2", Status.PUBLIC, Type.CREDIT_NOTE, LocalDateTime.now(),null ,2000));
-        billList.add(new Bill(3, "title3", "des3", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1300));
-        billList.add(new Bill(4, "title4", "des4", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1040));
-        billList.add(new Bill(5, "title5", "des5", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,5000));
-        billList.add(new Bill(6, "title6", "des6", Status.PUBLIC, Type.CREDIT_NOTE, LocalDateTime.now(),null ,4000));
-        billList.add(new Bill(7, "title7", "des7", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1900));
-        billList.add(new Bill(8, "title8", "des8", Status.PUBLIC, Type.FISCAL_NOTE, LocalDateTime.now(),null ,1220));
-        billList.add(new Bill(9, "title9", "des9", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,300));
-        billList.add(new Bill(10, "title10", "des10", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,40));
-        billList.add(new Bill(11, "title11", "des11", Status.PUBLIC, Type.CREDIT_NOTE, LocalDateTime.now(),null ,100));
-        billList.add(new Bill(12, "title12", "des12", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,99990));
-        billList.add(new Bill(13, "title13", "des13", Status.PUBLIC, Type.FISCAL_NOTE, LocalDateTime.now(),null ,500));
-        billList.add(new Bill(14, "title14", "des14", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1660));
-        billList.add(new Bill(15, "title15", "des15", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,20));
+        billList.add(new Bill(1, "ALPINE", "1023RG001", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1000));
+        billList.add(new Bill(2, "OMEN", "1023RG002", Status.PUBLIC, Type.CREDIT_NOTE, LocalDateTime.now(),null ,2000));
+        billList.add(new Bill(3, "ALPINE", "1023RG003", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1300));
+        billList.add(new Bill(4, "MARK", "1023RG004", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1040));
+        billList.add(new Bill(5, "ALPINE", "1023RG005", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,5000));
+        billList.add(new Bill(6, "ALPINEXXXXX", "1023RG006", Status.PUBLIC, Type.CREDIT_NOTE, LocalDateTime.now(),null ,4000));
+        billList.add(new Bill(7, "ALPINEXXXXX", "1023RG007", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1900));
+        billList.add(new Bill(8, "ALPINE", "1023FI001", Status.PUBLIC, Type.FISCAL_NOTE, LocalDateTime.now(),null ,1220));
+        billList.add(new Bill(9, "SDA", "1023RG009", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,300));
+        billList.add(new Bill(10, "DHL", "1024RG001", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,40));
+        billList.add(new Bill(11, "ALPINE", "1024GU001", Status.PUBLIC, Type.CREDIT_NOTE, LocalDateTime.now(),null ,100));
+        billList.add(new Bill(12, "ALPINE", "1024RG003", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,99990));
+        billList.add(new Bill(13, "DHL", "1024GU004", Status.PUBLIC, Type.FISCAL_NOTE, LocalDateTime.now(),null ,500));
+        billList.add(new Bill(14, "ALPINE", "1024RG005", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,1660));
+        billList.add(new Bill(15, "ALPINE", "1024RG006", Status.PUBLIC, Type.BILL, LocalDateTime.now(),null ,20));
     }
 
     public void save(Bill bill) {
