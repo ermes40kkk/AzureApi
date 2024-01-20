@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/bills")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin("*")
 public class BillController {
     private final BillCollectionRepository repository;
 @Autowired
