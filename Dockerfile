@@ -9,7 +9,7 @@ COPY --from=build /app/apiAzure/target/lib /app/apiAzure/lib
 
 WORKDIR /app/apiAzure
 
-COPY --from=build /app/apiAzure/target/demo-0.0.1-SNAPSHOT.jar demo.jar
+COPY --from=build /app/apiAzure/target/apiAzure-0.0.1-SNAPSHOT.jar demo.jar
 
 EXPOSE 8080
 
