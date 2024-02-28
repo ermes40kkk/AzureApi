@@ -1,0 +1,7 @@
+mossino\azure\apiAzure\repository\BillCollectionRepository.class
+mossino\azure\apiAzure\ApiAzureApplication.class
+mossino\azure\apiAzure\controller\BillController.class
+mossino\azure\apiAzure\model\Status.class
+mossino\azure\apiAzure\model\Type.class
+mossino\azure\apiAzure\config\WebConfig.class
+mossino\azure\apiAzure\model\Bill.class
