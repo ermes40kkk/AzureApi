@@ -3,7 +3,7 @@ COPY . .
 
 RUN mvn clean package
 
-FROM openjdk:17-jre-slim
+FROM openjdk:17.0.1-jdk-slim
 
 COPY --from=build /app/apiAzure/target/lib /app/apiAzure/lib
 
